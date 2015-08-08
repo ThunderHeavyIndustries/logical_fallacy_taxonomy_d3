@@ -2,10 +2,6 @@
  "name": "Logical Fallacy",
  "children": [
   {
-    "name": "Loaded Question",
-    "url": "http://www.fallacyfiles.org/loadques.html"
-  },
-  {
     "name": "Formal Fallacy",
     "url": "http://www.fallacyfiles.org/formfall.html",
     "children":[
@@ -29,7 +25,15 @@
             "name": "Commutation of Conditionals",
             "url": "http://www.fallacyfiles.org/commcond.html"
           },
-       ]
+          {
+            "name": "Denying a Conjunct",
+            "url": "http://www.fallacyfiles.org/denyconj.html"
+          },
+          {
+            "name": "Improper Transposition",
+            "url": "http://www.fallacyfiles.org/imptrans.html"
+          }
+        ]
      },
      {
        "name": "Masked Man Fallacy",
@@ -37,25 +41,124 @@
      },
      {
        "name": "Probabalistic Fallacy",
-       "url": "http://www.fallacyfiles.org/probfall.html"
+       "url": "http://www.fallacyfiles.org/probfall.html",
+       "children":[
+          {
+            "name": "The Base Rate Fallacy",
+            "url": "http://www.fallacyfiles.org/baserate.html"
+          },
+          {
+            "name": "The Conjunction Fallacy",
+            "url": "http://www.fallacyfiles.org/conjunct.html"
+          },
+          {
+            "name": "The Gamblers Fallacy",
+            "url": "http://www.fallacyfiles.org/gamblers.html"
+          },
+          {
+            "name": "The Hot Hand Fallacy",
+            "url": "http://www.fallacyfiles.org/hothandf.html"
+          },
+          {
+            "name": "The Multiple Comparisons Fallacy",
+            "url": "http://www.fallacyfiles.org/multcomp.html"
+          }
+
+       ]
      },
      {
        "name": "Syllogistic Fallacy",
-       "url": "http://www.fallacyfiles.org/syllfall.html"
+       "url": "http://www.fallacyfiles.org/syllfall.html",
+       "children":[
+          {
+            "name": "Illicit Process",
+            "url": "http://www.fallacyfiles.org/illicitp.html",
+            "children":[
+              {
+                 "name": "Illicit Major",
+                  "url": "http://www.fallacyfiles.org/illmajor.html"
+              },
+              {
+                  "name": "Illicit Minor",
+                  "url": "http://www.fallacyfiles.org/illminor.html"
+              }
+             ]
+          },
+          {
+            "name": "Exclusive Premisses",
+            "url": "http://www.fallacyfiles.org/exclprem.html"
+          },
+          {
+             "name": "Undistributed Middle",
+             "url": "http://www.fallacyfiles.org/undismid.html"
+          },
+          {
+             "name": "Affirmitive Conclusions From a Negative Premiss",
+             "url": "http://www.fallacyfiles.org/afromneg.html"
+          },
+          {
+             "name": "Four Term Fallacy",
+             "url": "http://www.fallacyfiles.org/fourterm.html",
+             "children":[
+              {
+                "name":"Ambigous Middle",
+                "url":"http://www.fallacyfiles.org/ambimidd.html"
+              }
+             ]
+          }
+        ]
      },
      {
        "name": "Quantificational Fallacy",
-       "url": "http://www.fallacyfiles.org/quanfall.html"
+       "url": "http://www.fallacyfiles.org/quanfall.html",
+       "children":[
+          {
+            "name": "Existential Fallacy",
+            "url": "http://www.fallacyfiles.org/existent.html"
+          },
+          {
+            "name": "Illicit Contraposition",
+            "url": "http://www.fallacyfiles.org/ilcontra.html"
+          },
+          {
+            "name": "Illicit Conversion",
+            "url": "http://www.fallacyfiles.org/illiconv.html"
+          },
+          {
+            "name": "Some are / Some are Not",
+            "url": "http://www.fallacyfiles.org/somernot.html"
+          },
+          {
+            "name": "Quantifier Shift",
+            "url": "http://www.fallacyfiles.org/quanshif.html"
+          }
+       ]
      },
      {
        "name": "Modal Fallacy",
-       "url": "http://www.fallacyfiles.org/modalfal.html"
+       "url": "http://www.fallacyfiles.org/modalfal.html",
+       "children":[
+          {
+             "name": "Modal Scope Fallacy",
+             "url": "http://www.fallacyfiles.org/modlscop.html"
+          }
+       ]
      },
      {
        "name": "Bad Reasons Fallacy",
-       "url": "http://www.fallacyfiles.org/badreasn.html"
+       "url": "http://www.fallacyfiles.org/badreasn.html",
+       "children":[
+          {
+             "name": "Fallacy Fallacy",
+             "url": "http://www.fallacyfiles.org/fallfall.html"
+          }
+       ]
      }
     ]
+  },
+  {
+    "name": "Loaded Question",
+    "url": "http://www.fallacyfiles.org/loadques.html"
   },
    {
     "name": "Informal Fallacy",
@@ -63,11 +166,61 @@
     "children":[
       {
         "name": "One-Sidedness",
-        "url": "http://www.fallacyfiles.org/onesided.html"
+        "url": "http://www.fallacyfiles.org/onesided.html",
+        "children":[
+          {
+             "name": "Quoting Out of Context",
+             "url": "http://www.fallacyfiles.org/quotcont.html"
+          }
+       ]
       },
       {
         "name": "Ambiguity",
-        "url": "http://www.fallacyfiles.org/ambiguit.html"
+        "url": "http://www.fallacyfiles.org/ambiguit.html",
+        "children":[
+          {
+             "name": "Quoting Out of Context",
+             "url": "http://www.fallacyfiles.org/quotcont.html"
+          },
+          {
+             "name": "Amphibody",
+             "url": "http://www.fallacyfiles.org/amphibol.html",
+             "children":[
+               {
+                  "name": "Scope Fallacy",
+                  "url": "http://www.fallacyfiles.org/scopefal.html",
+                  "children":[
+                    {
+                       "name": "Modal Scope Fallacy",
+                       "url": "http://www.fallacyfiles.org/modlscop.html"
+                    },
+                    {
+                       "name": "Quantifier Shift",
+                       "url": "http://www.fallacyfiles.org/quanshif.html"
+                    }
+                  ]
+               }
+             ]
+          },
+          {
+             "name": "Accent",
+             "url": "http://www.fallacyfiles.org/onaccent.html"
+          },
+          {
+             "name": "Equivocation",
+             "url": "http://www.fallacyfiles.org/equivoqu.html",
+             "children": [
+                {
+                  "name": "Redefinition",
+                  "url": "http://www.fallacyfiles.org/redefine.html"
+                },
+                {
+                  "name": "Ambigous Middle",
+                  "url": "http://www.fallacyfiles.org/ambimidd.html"
+                }
+             ]
+          }
+       ]
       },
       {
         "name": "Accident",
@@ -79,7 +232,38 @@
       },
       {
         "name": "Red Herring",
-        "url": "http://www.fallacyfiles.org/redherrf.html"
+        "url": "http://www.fallacyfiles.org/redherrf.html",
+        "children":[
+          {
+            "name": "Genetic Fallacy",
+            "url": "http://www.fallacyfiles.org/genefall.html",
+            "children":[
+              {
+                "name": "Appeal to Misleading Authority",
+                "url": "http://www.fallacyfiles.org/authorit.html",
+                "children":[
+                  {
+                    "name": "Appeal to Celebrity",
+                    "url": "http://www.fallacyfiles.org/apcelebs.html"
+                  }
+                ]
+              },
+              {
+                "name": "Etymological Fallacy",
+                "url": "http://www.fallacyfiles.org/etymolog.html"
+              },
+              {
+                "name": "Ad Hominem",
+                "url": "http://www.fallacyfiles.org/adhomine.html"
+              }
+            ]
+          },
+                   {
+            "name": "Straw Man",
+            "url": "http://www.fallacyfiles.org/strawman.html"
+          }
+
+        ]
       },
       {
         "name": "Composition",
