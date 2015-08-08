@@ -1,0 +1,124 @@
+{
+ "name": "Logical Fallacy",
+ "children": [
+  {
+    "name": "Loaded Question",
+    "url": "http://www.fallacyfiles.org/loadques.html"
+  },
+  {
+    "name": "Formal Fallacy",
+    "url": "http://www.fallacyfiles.org/formfall.html",
+    "children":[
+     {
+       "name": "Propositional Fallacy",
+       "url": "http://www.fallacyfiles.org/propfall.html",
+       "children":[
+          {
+            "name": "Affirming the Consequent",
+            "url": "http://www.fallacyfiles.org/afthecon.html"
+          },
+          {
+            "name": "Denying the Antecedent",
+            "url": "http://www.fallacyfiles.org/denyante.html"
+          },
+          {
+            "name": "Affirming a Disjunct",
+            "url": "http://www.fallacyfiles.org/afonedis.html"
+          },
+          {
+            "name": "Commutation of Conditionals",
+            "url": "http://www.fallacyfiles.org/commcond.html"
+          },
+       ]
+     },
+     {
+       "name": "Masked Man Fallacy",
+       "url": "http://www.fallacyfiles.org/illisubs.html"
+     },
+     {
+       "name": "Probabalistic Fallacy",
+       "url": "http://www.fallacyfiles.org/probfall.html"
+     },
+     {
+       "name": "Syllogistic Fallacy",
+       "url": "http://www.fallacyfiles.org/syllfall.html"
+     },
+     {
+       "name": "Quantificational Fallacy",
+       "url": "http://www.fallacyfiles.org/quanfall.html"
+     },
+     {
+       "name": "Modal Fallacy",
+       "url": "http://www.fallacyfiles.org/modalfal.html"
+     },
+     {
+       "name": "Bad Reasons Fallacy",
+       "url": "http://www.fallacyfiles.org/badreasn.html"
+     }
+    ]
+  },
+   {
+    "name": "Informal Fallacy",
+    "url": "http://www.fallacyfiles.org/inforfal.html",
+    "children":[
+      {
+        "name": "One-Sidedness",
+        "url": "http://www.fallacyfiles.org/onesided.html"
+      },
+      {
+        "name": "Ambiguity",
+        "url": "http://www.fallacyfiles.org/ambiguit.html"
+      },
+      {
+        "name": "Accident",
+        "url": "http://www.fallacyfiles.org/accident.html"
+      },
+      {
+        "name": "Appeal to Ignorance",
+        "url": "http://www.fallacyfiles.org/ignorant.html"
+      },
+      {
+        "name": "Red Herring",
+        "url": "http://www.fallacyfiles.org/redherrf.html"
+      },
+      {
+        "name": "Composition",
+        "url": "http://www.fallacyfiles.org/composit.html"
+      },
+      {
+        "name": "Division",
+        "url": "http://www.fallacyfiles.org/division.html"
+      },
+      {
+        "name": "Non Causa Pro Causa",
+        "url": "http://www.fallacyfiles.org/noncause.html"
+      },
+      {
+        "name": "Black-or-White Fallacy",
+        "url": "http://www.fallacyfiles.org/eitheror.html"
+      },
+      {
+        "name": "Begging the Question",
+        "url": "http://www.fallacyfiles.org/begquest.html"
+      },
+      {
+        "name": "Special Pleading",
+        "url": "http://www.fallacyfiles.org/specplea.html"
+      },
+      {
+        "name": "Weak Analogy",
+        "url": "http://www.fallacyfiles.org/wanalogy.html"
+      }
+
+
+    ]
+  }]
+}
+
+
+
+
+
+
+
+
