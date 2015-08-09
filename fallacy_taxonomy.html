@@ -14,6 +14,11 @@
 
 .node text {
   font: 10px sans-serif;
+
+}
+
+span.highlight {
+    background-color: yellow;
 }
 
 .link {
@@ -28,7 +33,7 @@
 <script>
 
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
-    width = 1200 - margin.right - margin.left,
+    width = 1500 - margin.right - margin.left,
     height = 800 - margin.top - margin.bottom;
     
 var i = 0,
@@ -108,7 +113,7 @@ function update(source) {
           .attr("width", 50) //2*4.5)
           .attr("height", 12)
           .style("fill", "lightsteelblue")
-          .style("fill-opacity", .3)        // set to 1e-6 to hide          
+          .style("fill-opacity", 1e-6)        // set to 1e-6 to hide          
           ;
 
   // Transition nodes to their new position.
