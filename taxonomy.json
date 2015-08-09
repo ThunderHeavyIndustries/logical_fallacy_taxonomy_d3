@@ -36,10 +36,6 @@
         ]
      },
      {
-       "name": "Masked Man Fallacy",
-       "url": "http://www.fallacyfiles.org/illisubs.html"
-     },
-     {
        "name": "Probabalistic Fallacy",
        "url": "http://www.fallacyfiles.org/probfall.html",
        "children":[
@@ -133,6 +129,10 @@
             "url": "http://www.fallacyfiles.org/quanshif.html"
           }
        ]
+     },
+     {
+       "name": "Masked Man Fallacy",
+       "url": "http://www.fallacyfiles.org/illisubs.html"
      },
      {
        "name": "Modal Fallacy",
