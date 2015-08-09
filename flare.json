@@ -254,15 +254,72 @@
               },
               {
                 "name": "Ad Hominem",
-                "url": "http://www.fallacyfiles.org/adhomine.html"
+                "url": "http://www.fallacyfiles.org/adhomine.html",
+                "children":[
+                  {
+                    "name": "Poisoning the Well",
+                    "url": "http://www.fallacyfiles.org/poiswell.html"
+                  },
+                  {
+                    "name": "Tu Quoque",
+                    "url": "http://www.fallacyfiles.org/tuquoque.html"
+                  }
+                ]
               }
             ]
           },
-                   {
+          {
+            "name": "Bandwagon Fallacy",
+            "url": "http://www.fallacyfiles.org/bandwagn.html"
+          },
+          {
             "name": "Straw Man",
             "url": "http://www.fallacyfiles.org/strawman.html"
+          },
+          {
+            "name": "Two Wrongs Make a Right",
+            "url": "http://www.fallacyfiles.org/twowrong.html",
+            "children":[
+              {
+                "name": "Tu Quoque",
+                "url": "http://www.fallacyfiles.org/tuquoque.html"
+              }
+            ]
+          },
+          {
+            "name": "Appeal To Consequences",
+            "url": "http://www.fallacyfiles.org/adconseq.html",
+             "children":[
+              {
+                "name": "Appeal to Force",
+                "url": "http://www.fallacyfiles.org/adbacula.html"
+              },
+              {
+                "name": "Wishful Thinking",
+                "url": "http://www.fallacyfiles.org/wishthnk.html"
+              }
+            ]
+          },
+          {
+            "name": "Emotional Appeal",
+            "url": "http://www.fallacyfiles.org/emotiona.html",
+            "children":[
+              {
+                "name": "Wishful Thinking",
+                "url": "http://www.fallacyfiles.org/wishthnk.html"
+              }
+            ]
+          },
+          {
+            "name": "Guilty by Association",
+            "url": "http://www.fallacyfiles.org/guiltbya.html",
+            "children":[
+              {
+                "name": "The Hitler Card",
+                "url": "http://www.fallacyfiles.org/adnazium.html"
+              }
+            ]
           }
-
         ]
       },
       {
@@ -275,15 +332,79 @@
       },
       {
         "name": "Non Causa Pro Causa",
-        "url": "http://www.fallacyfiles.org/noncause.html"
+        "url": "http://www.fallacyfiles.org/noncause.html",
+        "children":[
+          {
+            "name": "Cum Hoc, Ergo Propter Hoc",
+            "url": "http://www.fallacyfiles.org/cumhocfa.html",
+            "children":[
+              {
+                "name": "Post Hoc, Ergo Propter Hoc",
+                "url": "http://www.fallacyfiles.org/posthocf.html"
+              }
+            ]
+          },
+          {
+            "name": "Post Hoc, Ergo Propter Hoc",
+            "url": "http://www.fallacyfiles.org/posthocf.html",
+            "children":[
+              {
+                "name": "Cum Hoc, Ergo Propter Hoc",
+                "url": "http://www.fallacyfiles.org/cumhocfa.html"
+              }
+            ]
+          },
+          {
+            "name": "Regression Fallacy",
+            "url": "http://www.fallacyfiles.org/regressf.html"
+          },
+          {
+            "name": "Texas Sharpshooter Fallacy",
+            "url": "http://www.fallacyfiles.org/texsharp.html"
+          }
+        ]
       },
       {
         "name": "Black-or-White Fallacy",
         "url": "http://www.fallacyfiles.org/eitheror.html"
       },
       {
+        "name": "Vagueness",
+        "url": "http://www.fallacyfiles.org/vaguenes.html",
+        "children":[
+            {
+              "name": "Fake Precision",
+              "url": "http://www.fallacyfiles.org/fakeprec.html"
+            },
+            {
+              "name": "Slippery Sloap",
+              "url": "http://www.fallacyfiles.org/slipslop.html"
+            },
+            {
+              "name": "Appeal to Nature",
+              "url": "http://www.fallacyfiles.org/adnature.html"
+            }
+        ]
+      },
+      {
         "name": "Begging the Question",
-        "url": "http://www.fallacyfiles.org/begquest.html"
+        "url": "http://www.fallacyfiles.org/begquest.html",
+        "children":[
+            {
+              "name": "Loaded Words",
+              "url": "http://www.fallacyfiles.org/loadword.html",
+              "children":[
+                  {
+                    "name": "Appeal to Nature",
+                    "url": "http://www.fallacyfiles.org/adnature.html"
+                 }
+              ]
+            },
+            {
+              "name": "Question Begging Analogy",
+              "url": "http://www.fallacyfiles.org/qbanalog.html"
+            }
+        ]
       },
       {
         "name": "Special Pleading",
@@ -291,7 +412,27 @@
       },
       {
         "name": "Weak Analogy",
-        "url": "http://www.fallacyfiles.org/wanalogy.html"
+        "url": "http://www.fallacyfiles.org/wanalogy.html",
+        "children":[
+          {
+            "name": "Question Begging Analogy",
+            "url": "http://www.fallacyfiles.org/qbanalog.html"
+          },
+          {
+            "name": "Unrepresentative Sample",
+            "url": "http://www.fallacyfiles.org/biassamp.html",
+            "children":[
+              {
+                "name": "Hasty Generalization",
+                "url": "http://www.fallacyfiles.org/hastygen.html"
+              },
+              {
+                "name": "Anecdotal Fallacy",
+                "url": "http://www.fallacyfiles.org/volvofal.html"
+              }
+            ]
+          }
+        ]
       }
 
 
